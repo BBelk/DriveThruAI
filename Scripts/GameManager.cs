@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     //openAI https://platform.openai.com/account/api-keys
     //elevenlabs https://docs.elevenlabs.io/welcome/introduction
     public string OpenAIAPIKey;
+    public string OpenAIOrgID;
     public string ElevenLabsAPIKey;
     private int minFreq;    
     private int maxFreq;

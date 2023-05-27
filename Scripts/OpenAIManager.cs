@@ -24,11 +24,13 @@ public class OpenAIManager : MonoBehaviour
   public List<Message> allChatMessages;
     
   private string apiKey = "";
+  private string orgId = "";
 
     // Start is called before the first frame update
     void Start()
     {
       apiKey = GameManager.OpenAIAPIKey;
+      orgId = GameManager.OpenAIOrgID;
       Invoke("ResetAllChatMessages", 0.5f);
         
     }
@@ -40,7 +42,7 @@ public class OpenAIManager : MonoBehaviour
       }
     }
     public OpenAIClient NewOpenAIClient(){
-      return new OpenAIClient(new OpenAIAuthentication(apiKey, "org-S2xfxaX1BeAehYAnQSXD7UcE"));
+      return new OpenAIClient(new OpenAIAuthentication(apiKey, orgId));
     }
 
     public async Task TestAudioTranscription(AudioClip audioClip){

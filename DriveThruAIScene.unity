@@ -7503,11 +7503,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1269432322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3d8d3cf56165b64c89bdbc4378cd6c4, type: 3}
+  m_Script: {fileID: 11500000, guid: 2467f770ad0c2bf49a910358f7cde3ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OpenAIAPIKey: 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
-  ElevenLabsAPIKey: 31435cd0f18529f33464943118a4cf28
+  OpenAIAPIKey: 
+  OpenAIOrgID: 
+  ElevenLabsAPIKey: 
   userRecordedClip: {fileID: 0}
   OpenAIManager: {fileID: 1269432326}
   ElevenLabsManager: {fileID: 1269432327}
@@ -7523,7 +7524,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1269432322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3666066f6a34604690502d541b29bb6, type: 3}
+  m_Script: {fileID: 11500000, guid: a8d0f7f5a7376484caf751ca1ed53c68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   GameManager: {fileID: 1269432325}
@@ -7537,7 +7538,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1269432322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7479d9baba30d964bb129f329b05ae57, type: 3}
+  m_Script: {fileID: 11500000, guid: f5bf122b6e9b10a4ebcc81597eb8298a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   GameManager: {fileID: 1269432325}
@@ -7551,7 +7552,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1269432322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a0dadca25d09ed44aa2a032dcaf90f1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1ad7e55d5204b0b428707f9839ad8865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   GameManager: {fileID: 1269432325}
