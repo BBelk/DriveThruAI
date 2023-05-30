@@ -29,7 +29,7 @@ Sure, it's bad at math, but that's a problem that will be fixed both with future
 
 ## Try it out
 Only available on Windows, download it and run the .exe.
-[Link to live site](https://bb-dev.itch.io/drive-thru-ai)
+[Link to windows download](https://bb-dev.itch.io/drive-thru-ai)
 
 ## Importing into Unity
 Clone this git repo into an existing Unity project, then in Unity navigate to DriveThru-> then open the DriveThruAI.scene. You may need to import TextMeshPro into Unity, which you should automatically be prompted to do.
